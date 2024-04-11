@@ -8,13 +8,13 @@ Desenvolvido durante o curso Fullstack da [Academia do Programador](https://www.
 ---
 ## Detalhes
 
-Uma conta corrente possui um número, um saldo, um status que informa se ela é especial ou não, um limite e um histórico de movimentações. Uma movimentação possui um valor e uma informação se ela é uma movimentação de crédito ou débito. 
+Uma conta corrente possui um nÃºmero, um saldo, um status que informa se ela Ã© especial ou nÃ£o, um limite e um histÃ³rico de movimentaÃ§Ãµes. Uma movimentaÃ§Ã£o possui um valor e uma informaÃ§Ã£o se ela Ã© uma movimentaÃ§Ã£o de crÃ©dito ou dÃ©bito. 
 
-Cada conta terá operações de saques, depósitos, visualização de saldo, visualização de extrato e transferência entre contas.
+Cada conta terÃ¡ operaÃ§Ãµes de saques, depÃ³sitos, visualizaÃ§Ã£o de saldo, visualizaÃ§Ã£o de extrato e transferÃªncia entre contas.
 
 Cada conta vai ter o nome, o sobrenome e cpf do cliente dono da conta.
 
-Uma conta corrente só pode fazer saques desde que o valor não exceda o limite de saque que é o limite + saldo.
+Uma conta corrente sÃ³ pode fazer saques desde que o valor nÃ£o exceda o limite de saque que Ã© o limite + saldo.
 
 ---
 ## Funcionalidades
@@ -24,26 +24,26 @@ TBD
 ---
 ## Requisitos
 
-- .NET SDK (recomendado .NET 8.0 ou superior) para compilação e execução do projeto.
+- .NET SDK (recomendado .NET 8.0 ou superior) para compilaÃ§Ã£o e execuÃ§Ã£o do projeto.
 ---
 ## Como Usar
 
-#### Clone o Repositório
+#### Clone o RepositÃ³rio
 ```
-git clone https://github.com/academia-do-programador/conta-corrente-2024.git
+git clone https://github.com/psergioPadilha/conta-corrente-2024.git
 ```
 
-#### Navegue até a pasta raiz da solução
+#### Navegue atÃ© a pasta raiz da soluÃ§Ã£o
 ```
 cd conta-corrente-2024
 ```
 
-#### Restaure as dependências
+#### Restaure as dependÃªncias
 ```
 dotnet restore
 ```
 
-#### Navegue até a pasta do projeto
+#### Navegue atÃ© a pasta do projeto
 ```
 cd ContaCorrente.ConsoleApp
 ```
