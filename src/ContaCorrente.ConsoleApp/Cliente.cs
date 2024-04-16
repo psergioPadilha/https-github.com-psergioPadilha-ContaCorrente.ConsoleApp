@@ -1,13 +1,31 @@
-﻿namespace ContaCorrente.ConsoleApp
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace ContaCorrente.ConsoleApp
 {
     public class Cliente
     {
         private string nome;
-        private string sobrenome;
         private string cpf;
 
-        public string Nome { get => nome; set => nome = value; }
-        public string Sobrenome { get => sobrenome; set => sobrenome = value; }
-        public string Cpf { get => cpf; set => cpf = value; }
+
+        public string getNome()
+        {
+            return nome;
+        }
+
+        public void setNome(string nome)
+        {
+            this.nome = nome;
+        }
+
+        public string getCpf()
+        {
+            return cpf;
+        }
+
+        public void setCpf(string cpf)
+        {
+            this.cpf = cpf;
+        }
     }
 }

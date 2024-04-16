@@ -3,11 +3,18 @@
     public class Conta
     {
         private int numero;
-        private string cliente;
-        private string cpf;
+        //private string cliente;
+        //private string cpf;
         private decimal saldo;
         private bool status;
         private decimal limite;
+
+        public Cliente cliente = new Cliente();
+
+        public Conta()
+        {
+
+        }
 
         public int getNumero()
         {
@@ -19,25 +26,25 @@
             this.numero = numero;
         }
 
-        public string getCliente()
-        {
-            return cliente;
-        }
+        //public string getCliente()
+        //{
+        //    return cliente;
+        //}
 
-        public void setCliente(string cliente)
-        {
-            this.cliente = cliente;
-        }
+        //public void setCliente(string cliente)
+        //{
+        //    this.cliente = cliente;
+        //}
 
-        public string getCpf()
-        {
-            return cpf;
-        }
+        //public string getCpf()
+        //{
+        //    return cpf;
+        //}
 
-        public void setCpf(string cpf)
-        {
-            this.cpf = cpf;
-        }
+        //public void setCpf(string cpf)
+        //{
+        //    this.cpf = cpf;
+        //}
 
         public decimal getSaldo()
         {
